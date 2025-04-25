@@ -1,13 +1,57 @@
-/* Partes del Index */
+/* Swiper */
+.swiper {
+    height: 450px;
+    width: 100%;
+    position: relative;
+}
+
+
+/* Logo */
+.logo-contenedor img {
+    height: 5rem;
+    width: 5rem;
+}
+
+
+/* Navegacion */
+.nav {
+    background-color: #00AADB;
+    padding: 1rem;
+}
+.nav-contenedor {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nav-link:hover {
+    background-color: #0087AB;
+}
+.nav-link a {
+    font-family: "Inter", sans-serif;
+    font-size: .9rem;
+    font-weight: 600;
+    color: white;
+}
+
+
+/* Texto Principal */
+.contenedor-texto {
+    margin-top: 5rem;
+    font-family: "Inter", sans-serif;
+    font-size: .8rem;
+}
+.contenedor-texto p {
+    padding: 0;
+    margin: 0;
+}
 
 /* Login & Register*/
 .contenedor {
-    font-family: sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;   
 }
 
 .container {
@@ -24,7 +68,7 @@
 }
 
 label {
-    display: block;
+    display: flex;
     margin-bottom: 5px;
 }
 
@@ -53,8 +97,8 @@ button:hover {
     background-color: #22da65;
 }
 
-/* REGISTER */
 
+/* REGISTER */
 .forgot-password {
     text-align: center;
     margin-top: 15px;
@@ -64,8 +108,3 @@ button:hover {
     color: #1bb0a6;
     text-decoration: none;
 }
-
-
-
-
-
